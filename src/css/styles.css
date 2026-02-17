@@ -1,0 +1,83 @@
+﻿:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 1.5rem;
+}
+
+#btnFetch {
+  padding: 10px 16px;
+  border: 0;
+  border-radius: 8px;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#btnFetch:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.message {
+  min-height: 24px;
+  margin: 16px 0;
+  font-weight: 600;
+}
+
+.message.loading {
+  color: #1d4ed8;
+}
+
+.message.success {
+  color: #065f46;
+}
+
+.message.error {
+  color: #b91c1c;
+}
+
+.results {
+  display: grid;
+  gap: 12px;
+}
+
+.user-card {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+.user-card h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.user-card p {
+  margin: 0;
+  color: #374151;
+}
